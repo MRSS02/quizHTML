@@ -3,7 +3,7 @@ function correctAnswers() {
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 
-    if (document.getElementsByName("resp_0")[0].value=="Nate River") {
+    if (document.getElementsByName("resp_0")[0].value.toLowerCase()=="nate river") {
         correct++;
         document.getElementsByName("resp_0")[0].style.color="green";
         document.getElementById("correctanswer0").style.color="green";
