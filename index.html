@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz HTML</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <script src="script.js"></script>
+
+    <header id="top">
+        <h1 class="title">Quiz de HTML</h1> 
+    </header>
+
+    <div id="main">
+        <form>
+
+            <div class="pergunta" id="primeira" style="border-top: none;">
+
+                <!--document.getElementsByName("resp_0")[0].value-->
+
+                <h2>1. Qual é o nome verdadeiro do N em Death Note?</h2>
+
+                <!--Resposta: Nate River -->
+
+                <input type="text" name="resp_0">
+                <p id="correctanswer0"></p>
+            </div>
+
+            <div class="pergunta" id="segunda">
+
+                <!--document.getElementsByName("resp_1_0")[0].checked-->
+                <!--document.getElementsByName("resp_1_1")[0].checked-->
+                <!--document.getElementsByName("resp_1_2")[0].checked-->
+
+                <h2>2. Marque a(s) verdadeira(s)</h2>
+
+                <!--Respostas: 1,2 -->
+
+                <div class="multiplaescolha">
+
+                    <span>1)<input type="checkbox" name="resp_1_0"><h3 class="options zero">Persona 5 Royal foi o jogo mais bem avaliado do Metacritic no PS4 em 2020</h3></span>
+                    <span>2)<input type="checkbox" name="resp_1_1"><h3 class="options zero">Celeste foi indicado como jogo do ano em 2018</h3></span>
+                    <span>3)<input type="checkbox" name="resp_1_2"><h3 class="options one">FMAB tem 62 episódios</h3></span>
+                    <span>4)<input type="checkbox" name="resp_1_3"><h3 class="options one">Ryuk mata L no Death Note</h3></span>
+                    <span>5)<input type="checkbox" name="resp_1_4"><h3 class="options one">A logo da InfoJr sempre foi verde</h3></span>
+
+                </div>
+
+                <p id="correctanswer1"></p>
+
+            </div>
+
+            <div class="pergunta" id="terceira">
+
+                <!--document.getElementsByName("resp_2")[0].value-->
+
+                <h2>3. Quantos Pokémon foram introduzidos na segunda geração?</h2>
+
+                <!--Resposta: 100 -->
+
+                <input type="number" name="resp_2">
+
+                <p id="correctanswer2"></p>
+
+            </div> 
+
+            <div class="pergunta" id="quarta">
+
+            <!--document.getElementsByName("resp_3")[0].value-->
+
+                <h2>4. Quando a InfoJr foi criada?</h2>
+
+                <!--Resposta: 1998-01-26 -->
+
+                <input type="date" name="resp_3">
+
+                <p id="correctanswer3"></p>
+
+            </div>
+
+            <div class="pergunta" id="quarta">
+
+                <!--document.getElementsByName("resp_4")[0].value-->
+    
+                    <h2>5. Quando Super Mario Bros. foi lançado?</h2>
+
+                    <!--Resposta: 1985-09 -->
+    
+                    <input type="month" name="resp_4">
+
+                    <p id="correctanswer4"></p>
+    
+            </div>
+
+            <div class="pergunta">
+
+                <button id="button" type="button" name="button" onclick="correctAnswers()">Submeta as respostas</button>
+
+                <p id="totalcorrect"></p>
+
+            </div>
+
+
+
+
+        </form>
+    </div>
+
+  </body>
+</html>

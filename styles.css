@@ -1,0 +1,49 @@
+body {
+    background-image: url("./L.png");
+    background-size: cover;
+}
+
+#top {
+    margin: auto;
+    width: 20%;
+    color: white;
+    text-align: center;
+}
+
+#main {
+    margin: auto;
+    width: 40%;
+    background-color: white;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+
+.multiplaescolha {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: auto;
+    width: 40%;
+}
+
+.multiplaescolha span {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.options {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.pergunta {
+    border-top: dashed;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#button {
+    margin-top: 30px;
+}
