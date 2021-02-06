@@ -67,7 +67,7 @@ function correctAnswers() {
 ////////////////////////////////////////////////////////////////////////////////////////////
 
 
-    if (document.getElementsByName("resp_4")[0].value=="1985-09") {
+    if (document.getElementsByName("resp_4")[0].value=="1985-09" || document.getElementsByName("resp_4")[0].value.toLowerCase()=="setembro de 1985") {
         correct++;
         document.getElementsByName("resp_4")[0].style.color="green";
         document.getElementById("correctanswer4").style.color="green";
