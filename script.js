@@ -94,7 +94,7 @@ function correctAnswers() {
         }
         else {
             document.getElementById("totalcorrect").style.color="black";
-            document.getElementById("totalcorrect").innerHTML=`Você acertou <span style="color:orange">${correct}</span> questões`;
+            document.getElementById("totalcorrect").innerHTML=`Você acertou <span style="color:light-blue">${correct}</span> questões`;
         }
     }
 
