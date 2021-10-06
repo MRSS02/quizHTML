@@ -1,3 +1,3 @@
 # quizHTML
 
-Atividade Front-End feita juntamente com [victorpbp](https://github.com/victorpbp)
+Atividade Front-End (HTML, CSS, Javascript) feita juntamente com [victorpbp](https://github.com/victorpbp)
